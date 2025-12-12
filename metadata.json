@@ -1,0 +1,9 @@
+{
+  "name": "ScriptGuard AI",
+  "description": "An advanced medical AI verification agent for prescription transcription, pill safety verification, and recovery trajectory prediction.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
