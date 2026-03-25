@@ -1,0 +1,167 @@
+# 🛡️ ScriptGuard AI
+
+### A Safety Layer for Reliable AI in Healthcare
+
+---
+
+## 🚨 Problem
+
+Large Language Models like Gemini are powerful—but in high-stakes domains like healthcare, **confidence ≠ correctness**.
+
+A single incorrect interpretation of a prescription can lead to:
+
+* Dangerous drug interactions
+* Incorrect dosages
+* Missed medical risks
+
+Most AI applications optimize for **fluency**, not **reliability**.
+
+---
+
+## 💡 Insight
+
+The core issue isn’t lack of knowledge—
+it’s the absence of **structured validation and failure handling**.
+
+> LLMs don’t fail quietly—they fail *confidently*.
+
+---
+
+## 🧠 Solution: ScriptGuard AI
+
+ScriptGuard AI is a **prescription safety system** built on top of Gemini that introduces:
+
+* ✅ Structured reasoning
+* ✅ Validation layers
+* ✅ Risk detection mechanisms
+
+Instead of trusting raw LLM output, ScriptGuard **analyzes, verifies, and flags risks** before presenting results.
+
+---
+
+## ⚙️ How It Works
+
+1. **Input Processing**
+
+   * Parses prescription data (drugs, dosage, instructions)
+
+2. **Reasoning Layer (Gemini)**
+
+   * Performs multi-step analysis using long-context reasoning
+
+3. **Validation Layer (Core Innovation)**
+
+   * Checks for:
+
+     * Drug interactions
+     * Dosage anomalies
+     * Missing or ambiguous information
+
+4. **Output Layer**
+
+   * Returns:
+
+     * ✅ Safe confirmations
+     * ⚠️ Risk alerts
+     * ❌ Critical issues
+
+---
+
+## 🔥 Why Not Just Use Gemini Directly?
+
+Because raw LLM outputs:
+
+* Don’t enforce constraints
+* Don’t validate across steps
+* Can hallucinate with high confidence
+
+ScriptGuard acts as a **safety layer**, ensuring outputs are:
+
+> **not just fluent — but trustworthy**
+
+---
+
+## 🎥 Demo
+
+👉 Watch the full demo here:
+[🔗 Loom Demo](PASTE_YOUR_LOOM_LINK_HERE)
+
+---
+
+## 🧪 Example
+
+### Input:
+
+Prescription with multiple drugs
+
+### Output:
+
+* ⚠️ Detected potential drug interaction
+* ⚠️ Highlighted dosage inconsistency
+* ✅ Suggested safer interpretation
+
+---
+
+## ⚠️ Failure Handling
+
+ScriptGuard is designed to handle:
+
+* Ambiguous prescriptions
+* Missing dosage information
+* Conflicting drug combinations
+
+Instead of guessing, it:
+
+> **flags uncertainty explicitly**
+
+---
+
+## 🏗️ Tech Stack
+
+* TypeScript
+* Vite
+* Google Gemini API (AI Studio)
+
+---
+
+## 🚀 Vision
+
+Most AI apps today optimize for **generation**.
+
+ScriptGuard is built around a different principle:
+
+> **In critical systems, correctness matters more than creativity.**
+
+The goal is to evolve ScriptGuard into a **standard safety layer** for AI in healthcare and other high-risk domains.
+
+---
+
+## 🤝 Why This Project
+
+This project reflects my focus on:
+
+* AI reliability
+* Failure-aware system design
+* Moving beyond prompts → building **AI infrastructure**
+
+---
+
+## 📌 Next Steps
+
+* Improve validation pipelines
+* Expand medical knowledge constraints
+* Deploy as a real-world API/service
+
+---
+
+## 👨‍💻 Author
+
+**Mulakkayala Narendra Kumar Reddy**
+B.Tech ECE | AI Systems Builder
+
+---
+
+## ⭐ Final Note
+
+> “Most AI apps try to sound smart.
+> ScriptGuard tries to avoid being wrong.”
